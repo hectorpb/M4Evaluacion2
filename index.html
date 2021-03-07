@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title src="assets/img/autito.ico">Autolavado-Evaluación2</title>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="preload" href="assets/css/normalize.css" as="style">
+    <link rel="slylesheet" href="assets/css/normalize.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fascinate&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/checkout/">
+    
+</head>
+
+
+<div class="flex-container" style="border-radius: 20px; background-image: ;">
+          
+           
+            <a class="display" href="index.html">
+              <img src="assets/img/superclean.jpg" class="img-fluid; width:100%" alt="Responsive image">
+              <!--<img src="assets/img/auto_car-08.jpg" width="120" height="120" alt="" loading="lazy"> -->
+                                    
+            <h1 class="display-flex" style="min-height: max-content; min-width: max-content; min-block-size: 10rem; background-color: transparent; position: absolute; padding: 2rem; top: 0px; color:goldenrod; font-family: 'Fascinate';" ><strong> Autolavado SuperClean</strong></h1>
+          </div>  
+        </a>
+        </div>
+
+          
+          <div class="conteiner" style="padding-top: 5rem;">
+          <h2 class="mx-auto text-center" style="width: 500px; color: darkcyan;"><strong><em>Órdenes de trabajo</em></strong></h2>
+        </div>
+
+        
+    <div class="container-sm shadow-md bg-light" style="width: auto; height: auto; border-radius: 21px; padding-bottom: .5rem;">
+      
+      <h2 class="text-primary" style="width: 500px; padding-top: 2rem;"> Registro de Cliente</h2>
+
+      <form class="needs-validation" novalidate> 
+      
+        <div class="row">
+        <div class="col-md-3">
+                   
+            <label for="rutNumero" class="form-control">Rut</label>
+            <input class="form-control item" type="number" name="rutNumero" maxlength="8" minlength="7" pattern="^[0-9]*$" id="rutNumero" placeholder="Rut" required> 
+        </div>
+
+        <div class="col-md-1 fs-4" style="padding-top:32px">
+            -
+       </div>
+
+        <div class="col-md-1 pt-2" style="margin-left: -5.2rem;">
+            <label for="rutDigito" class="form-control"></label>
+            <input class="form-control item" type="text" name="rutDigito" maxlength="1" minlength="1" pattern="^[kK0-9]*$" id="rutDigito" placeholder="DV" required>  
+          
+        </div>
+        
+    </div> <!--fin rut-->
+    <div class="col-md-8 order-md-1" style="padding-block: 2rem;">
+      
+      <form class="needs-validation" novalidate>
+        <div class="row">
+          <div class="col-md-6 mb-3">
+            <label for="firstName">Nombre</label>
+            <input type="text" class="form-control" maxlength="50" minlength="1" pattern="^[a-zA-Z]*$" id="firstName" placeholder="Escribe tu nombre" value="" required>
+            <div class="invalid-feedback">
+              Valid first name is required.
+            </div>
+          </div>
+          <div class="col-md-6 mb-3">
+            <label for="lastName">Apellido</label>
+            <input type="text" class="form-control" id="lastName" maxlength="50" minlength="1" pattern="^[a-zA-Z]*$" placeholder="Escribe tu apellido" value="" required>
+            <div class="invalid-feedback">
+              Valid last name is required.
+            </div>
+          </div>
+        </div>
+
+        <div class="mb-3">
+          <label for="email">Email <span class="text-muted">(Optional)</span></label>
+          <input type="email" class="form-control" id="email" placeholder="you@example.com">
+          <div class="invalid-feedback">
+            Please enter a valid email address for shipping updates.
+          </div>
+        </div>
+        <div class="form-row">
+          <label for="inputAddress"><strong>Dirección</strong></label>
+          <input type="text" class="form-control" id="inputAddress" maxlength="100" minlength="1" pattern="^[a-zA-Z]*$" placeholder="Calle ####" required>
+        </div>
+        
+        <div class="form-row" style="margin-right: 10rem;">
+          <div class="form-group col-md-6">
+            <label for="inputCity"><strong>Comuna</strong></label>
+            <input type="text" class="form-control"   id="inputCity">
+          </div>
+          </div>
+        </div>      
+        
+      
+</div>
+<div class="container-sm shadow-sm bg-light" style="width: auto; height: auto; border-radius: 21px; margin-top: 5rem; padding-bottom: 1rem">
+  <h3 class="text-primary" style="width: 500px; padding-top: 2rem; padding-bottom: .5rem;"> Datos del Vehículo</h3>
+
+
+  <div class="form-group col-md-4">
+    <label for="inputState">Tipo de Vehículo</label>
+    <select id="inputState" class="form-control">
+      <option selected>--Selecciona tu Vehículo--</option>
+      <option>Furgón</option>                
+      <option>Automóvil</option>
+      <option>Camión</option>
+      <option>Camioneta</option>
+      <option>Moto</option>
+      </select>
+  </div><br>
+
+  
+       <label>Marca</label>
+        <input type="text" style="margin-left: 1rem;" maxlength="20" minlength="1" pattern="^[a-zA-Z]*$" placeholder="Marca" required>
+        <label>Modelo</label>
+        <input type="text"style="margin-left: 1rem; margin-rigth: 1rem;" maxlength="20" minlength="1" pattern="^[a-zA-Z]*$" placeholder="Modelo" required>
+         <label>Año</label>
+         <input type="number"style="margin-left: 1rem;  margin-rigth: 1rem;" maxlength="4" minlength="4" pattern="^[0-9]*$" placeholder="Año" required>
+         <label for="aldia" style="margin-left: 1rem;"><strong>Revisión Técnica:</strong></label>
+                <input type="radio" id="aldia" name="tipoc" value="aldia">
+                <label for="frecuente">Al día</label>
+                 <input type="radio" id="atrasada" name="tipoc" value="atrasada">
+                <label for="atrasada">Atrasada</label><br>
+
+</div>
+
+<div class="container-sm shadow-sm bg-light" style="width: auto; height: auto; border-radius: 21px; margin-top: 5rem; padding-bottom: 1rem">
+                <div class="container"><br>
+                  <h3 class="text-primary" style="width: 500px;"> Tipo de Servicio</h3>          
+
+                <div class="form-button">
+                  <label for="atrasada">Lavado Exterior</label>
+                  <button class="btn btn-dark btn-lg btn-block" id="Lavado" type="text">$5000</button>
+                
+                  </div>
+                <div class="form-button">
+                  <label for="atrasada">Lavado Motor</label>
+                  <button class="btn btn-dark btn-lg btn-block" id="Motor" type="text">$8000</button>
+                 </div>
+                <button class="btn btn-success btn-lg btn-block" onclick="calcular()" type="text">Calcular</button>
+                
+                <script>
+                  function calcular() {
+                  
+                  var vr1 = 5000 /*document.getElementById('Lavado').value;*/
+                  var vr2 = 8000 /*document.getElementById('Motor').value;*/
+                
+                  var p = ((vr1)+(vr2)) * 1.19;
+                  alert("El total a pagar es: " +p);
+                  document.getElementById('Total').innerHTML = p;
+                  }
+                 </script>   
+</div>
+<div class="container-sm shadow-sm bg-light" style="width: auto; height: auto; border-radius: 21px; margin-top: 5rem; padding-bottom: .5rem">
+                <div class="container"><br>
+                  <h3 class="text-primary" style="width: 500px;"> Agendamiento</h3>  
+                  
+                  <div class="form-group col-md-4">
+                    <label for="inputState">Encargado</label>
+                    <select id="inputState" class="form-control">
+                      <option selected>--Selecciona--</option>
+                      <option>Juanito</option>                
+                      <option>Pedrito</option>
+                      <option>Menganito</option>
+                        </select>
+                  </div>
+                  <label for="fechadetermino"><strong>Fecha de Término</strong></label>
+                  <input type="date" name="fecha"><br><br>
+
+                  <label for="fechadetermino"><strong>Hora de Entrega</strong></label>
+                  <input type="time" name="hora"><br><br>
+                </div>
+
+             </div>
+          </div>
+          
+
+          <div class="container" style="align-content: center; margin-top:5rem; margin-bottom: 20rem;">
+               
+     
+            <hr class="mb-4">
+        <button class="btn btn-primary btn-lg btn-block" type="submit">Reservar</button>
+  </div>
+        </div>
+        
+        
+      </form>
+
+</body>
+<script>
+
+const precio1 = 5000;
+const precio2 = 8000;
+
+  function actualizar() {
+      var neto = precio1+precio2;
+      var iva= neto*0.19;
+      var total = neto + iva;
+      console.log();
+      document.getElementById("Total").value=parseInt(precio1)+parseInt(precio2)*1.19%;
+
+  }
+
+  </script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')</script><script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="form-validation.js"></script></body>
+</html>
